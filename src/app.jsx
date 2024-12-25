@@ -1,11 +1,13 @@
 import Header from "./components/header";
 import React from "react";
+import "../public/index.css";
+
 
 const App = () => {
     return (<>
         <Header />
 
-        <h1>bom dia</h1>
+       
 
     </>)
 }

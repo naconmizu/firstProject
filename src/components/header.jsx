@@ -7,7 +7,7 @@ import React from "react";
 
 const Header = () => {
     return (
-        <header id="header">
+        <header id="header" className="bg-black w-full h-[100px] flex items-center justify-between px-10">
             <img id="logo" src="https://i.pinimg.com/236x/ab/dc/aa/abdcaa395563fee65a329ad8bb192509.jpg" alt="" />
             <div id="headerDIV">
 
