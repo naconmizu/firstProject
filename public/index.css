@@ -9,6 +9,20 @@
     list-style: none;
     font-family: 'Poppins',Verdana, Arial, Tahoma, sans-serif;
 }
+
+
+#root{
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins',Verdana, Arial, Tahoma, sans-serif;
+    min-width:100vw ;
+    min-height: 100vh;
+}
+
+
 html{
     min-width:100vw ;
     min-height: 100vh;
