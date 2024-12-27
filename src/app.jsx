@@ -1,13 +1,15 @@
 import React from "react";
 import "../public/index.css";
-import Card from "./components/card";
+import AboutMe from "./components/aboutMe";
 import Footer from "./components/footer";
+import Header from "./components/header";
 
 const App = () => {
     return (
         <div className="min-h-screen flex flex-col">
+            <Header/>
             <div className="flex-grow">
-                <Card />
+                <AboutMe/>
             </div>
             <Footer />
         </div>
